@@ -9,10 +9,18 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "sass": "^1.77.4",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
     "vitepress": "^1.1.4"
+  },
+  "dependencies": {
+    "element-plus": "^2.7.5",
+    "vue": "^3.4.27"
   }
 }
